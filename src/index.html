@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css文件请在此css文件内部添加
+         如要修改写好的样式，为方便最后统一归纳,请先注释掉原先样式并在下方修改!
+    -->
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="scene">
+        <div class="main">
+            <!-- 请注意,实际顺序不同与自然数顺序! -->
+            <!-- 看后面的id值来确定你正在修改的内容!  -->
+
+            <!-- 主界面以及登陆 -->
+            <div class="page a1" id="infos post">
+                <div class="firstTime">
+                    <div class="firstTime_header">大数据实验室</div>
+                    <div class="firstTime_mid">
+                        <div class="firstTime_mid_en">yāng</div>
+                        <div class="firstTime_mid_yang">
+                            <div class="firstTime_mid_yang_c">泱</div>
+                        </div>
+                        <div class="firstTime_mid_meaning">&nbsp; 字意:滃也,从水央声,於良切。形容大而广阔,如传说中鲲所居住的深湖。</div>
+                        <div class="firstTime_mid_meaning2">现代社会,无数信息组成了条条细流,最终汇聚成大数据这一片泱泱深湖之中。</div>
+                    </div>
+                    <div class="firstTime_tip">向左滑动,<br />探索大数据实验室 >>></div>
+                    <!-- <nav>
+                        <div class="navigation">
+                        </div>
+                    </nav> -->
+                </div>
+                <div class="secTime">
+                        <!-- 整体布局 -->
+    <div class="container right-panel-active">
+        <!-- 报名页面 -->
+        <div class="container_form" id="container--signup">
+            <form action="#" class="form" id="form1">
+                <h2 class="form_title">Join Us !</h2>
+                <input type="text" placeholder="姓名" class="input">
+                <input type="text" placeholder="专业班级" class="input">
+                <input type="text" placeholder="学号" class="input">
+                <input type="text" placeholder="电话" class="input">
+
+                <div class="input">
+                    <select id="select_major" name="major" >
+                        <option value ="frontend" selected>前端</option>
+                        <option value ="backend">后台</option>
+                        <option value="ai">机器学习</option>
+                        <option value="algorithm">算法</option>
+                      </select>
+                </div>
+                
+                <!-- <button class="btn" id="submit">点击报名</button> -->
+                <input type="button" value="点击报名" class="btn" id="submit">
+                <!-- <button class="btn switch" >查询面试结果</button> -->
+                <input type="button" value="查询面试结果" class="btn switch">
+            </form>
+            
+        </div>
+   <!-- 查询页面 -->
+        <div class="container_form filp1" id="container--signin">
+            <form action="#" class="form" id="form2" >
+                <h2 class="form_title">查询面试结果</h2>
+                <input type="text" placeholder="输入学号" class="input">
+
+                <!-- <button class="btn" id="query">点击查询</button>
+                <button class="btn switch">Join Us Now</button> -->
+                <input type="button" value="点击查询" class="btn" id="query">
+                <input type="button" value="Join Us Now" class="btn switch">
+
+            </form>
+        </div>
+        
+
+    </div>
+                </div>
+            </div>
+            <!-- 安卓,将改为实验室日常或者其他,发挥想象力 -->
+            <div class="page a2" id="Android">
+                <div class="FontEnd_header">日 常 </div>
+                <div class="FontEnd_info">占位ING.......</div>
+                <div class="Android_showBox">
+                    <h1 id="title">👋 Hello BDLab</h1>
+                    <p id="info">
+                      <span id="alpha"></span>
+                      <span id="beta"></span>
+                      <span id="gamma"></span>
+                      <span id="deg"></span>
+                    </p>
+                    <div class="BDimgList">
+                        <div class="BDimgListitem BDimgListitem1"></div>
+                        <div class="BDimgListitem BDimgListitem1"></div>
+                        <div class="BDimgListitem BDimgListitem2"></div>
+                        <div class="BDimgListitem BDimgListitem3"></div>
+                    </div>
+                    <div id="ball"></div>
+                </div>
+
+
+                <div class="firstTime_tip">向左滑动,<br />以填写 <u>报名表</u> >>></div>
+            </div>
+            <!-- 前端 -->
+            <div class="page a3" id="FontEnd">
+                <div class="FontEnd_header">前 端</div>
+                <div class="FontEnd_info">先声夺人,身体力行</div>
+                <div class="FontEnd_Showbox">
+                    <button>大数据2021纳新</button>
+                </div>
+                <div class="FontEnd_meaning">&nbsp; 正如同上面纯前端代码生成的《赛博朋克2077》风格的按钮样式,现代化的前端也迎来了它的新时代。<br>&nbsp;
+                    成为一名艺术家,从零开始创造网页的布局,样式以及逻辑,之后将其展示给用户。同后台交互,谨慎处理每一个网络请求。<br>&nbsp;
+                    更多的,学习主流框架,计算机网络,网页动效甚至简单建模,在Github上有着丰富的库供你学习使用,让兴趣成为你最好的老师。</div>
+                <div class="firstTime_tip">向左滑动,<br />以继续探索 后端 >>></div>
+            </div>
+            <!-- 算法，有想法可以改showbox里面展示的内容 -->
+            <div class="page a4" id="Algorithm" style="z-index: 9999;">
+                <div class="FontEnd_header">算 法</div>
+                <div class="FontEnd_info">大道至简,程序基石</div>
+                <div class="Algorithm_showbox">
+                    <div class="imgbox s1"></div>
+                    <div class="imgbox s2"></div>
+                </div>
+                <div class="FontEnd_meaning">&nbsp; 程序设计的本质是为了解决问题,而解决问题的本质就是算法。<br>&nbsp;
+                    成为一名真正的智者,持续磨练逻辑思维能力并提升自己的眼界,编写核心代码,参加各类比赛,洞察问题的本质。<br>&nbsp; 踏上一条并不孤独的苦行之路,时刻铭记着:不积跬步，无以至千里；不积小流，无以成江海</div>
+                <div class="firstTime_tip">向左滑动,<br />以继续探索 日常 >>></div>
+            </div>
+            <!-- 后台 介绍招标ing -->
+            <div class="page a5" id="BackEnd">
+                <div class="FontEnd_header">后 台</div>
+                <div class="FontEnd_info">先天下人之忧而忧<br>后天下人之乐而乐</div>
+                <div class="BackEnd_Showbox">
+                </div>
+                <div class="FontEnd_meaning">&nbsp; 看到背景那一条条'数据线'了吗?后台人员的任务和使命就是去维护,监控,并存储它们。做为企业赖以生存的风向标,后台的存在至关重要<br>&nbsp; 从Java到Golang,</div>
+                <div class="firstTime_tip">向左滑动,<br />以继续探索 人工智能 >>></div>
+            </div>
+            <!-- 机器学习 介绍招标 -->
+            <div class="page a6" id="AI">
+                <div class="FontEnd_header">人工智能</div>
+                <div class="FontEnd_info">占位ING......</div>
+                <div class="AI_showbox">
+                    <div class="tictactoe">
+                        <p>井字棋不败AI</p>
+                        <table border=2px bordercolor="#2EA9DF" width="270" height="270" style="font-size:40px "
+                            align=center>
+                            <tr>
+                                <td><input class='placeholder' type="button" id="1" Style="width:90px;height:90px;"
+                                        value=" " onclick="bn(0,0)" /></td>
+                                <td><input class='placeholder' type="button" id="2" Style="width:90px;height:90px;"
+                                        value=" " onclick="bn(0,1)" /></td>
+                                <td><input class='placeholder' type="button" id="3" Style="width:90px;height:90px;"
+                                        value=" " onclick="bn(0,2)" /></td>
+                            </tr>
+                            <tr>
+                                <td><input class='placeholder' type="button" id="4" Style="width:90px;height:90px;"
+                                        value=" " onclick="bn(1,0)" /></td>
+                                <td><input class='placeholder' type="button" id="5" Style="width:90px;height:90px;"
+                                        value=" " onclick="bn(1,1)" /></td>
+                                <td><input class='placeholder' type="button" id="6" Style="width:90px;height:90px;"
+                                        value=" " onclick="bn(1,2)" /></td>
+                            </tr>
+                            <tr>
+                                <td><input class='placeholder' type="button" id="7" Style="width:90px;height:90px;"
+                                        value=" " onclick="bn(2,0)" /></td>
+                                <td><input class='placeholder' type="button" id="8" Style="width:90px;height:90px;"
+                                        value=" " onclick="bn(2,1)" /></td>
+                                <td><input class='placeholder' type="button" id="9" Style="width:90px;height:90px;"
+                                        value=" " onclick="bn(2,2)" /></td>
+                            </tr>
+                        </table>
+                        <div class="AI_more"><input type="button" value="重新开始" onclick="tttagain()" />
+                            <!-- <a href="./ttt.html"></a> -->
+                                <input type="button" value="了解人工智能" class="konwMoreAboutAI"/>
+                            <!-- </a> -->
+                        </div>
+                    </div>
+                    <div class="moreInfoAboutAI">moreInfoAboutAI
+                        <input type="button" value="回到井字棋" class="btn3">
+                    </div>
+                </div>
+                <div class="firstTime_tip">向左滑动,<br />以继续探索 算法 >>></div>
+            </div>
+            <!-- 菜单,请忽视不用管 -->
+            <div class="page a7" id="WTF">
+                彩蛋发现! QwQ<br>
+                <div class="thanklist">
+                    感谢:
+                    <p class="Youser" style="color: pink;">Youser</p>
+                    ???<br>
+                    ???<br>
+                    ???<br>
+                    ???<br>
+                    ???<br>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 滑动等主要逻辑代码,不要动 -->
+    <script src="../Js/js.js"></script>
+    <!-- 井字棋AI极大极小剪枝树,不要改。欢迎学习 -->
+    <script src="../Js/jsofttt.js"></script>
+    <!-- 后台页面背景的显示逻辑,不要动 -->
+    <script src="../Js/rain.js"></script>
+    <!-- 之后的js代码请在下方添加,请勿使用 window.onload 方法，以避免扰乱文件流,强烈建议使用 let const 定义变量并封装函数方法 -->
+    <script src="../Js/jsofwhere.js"></script>
+
+    <script src="../Js/jaofday.js"></script>
+</body>
+
+</html>
+
+<!-- 先记录一下,可以使用 -30 + parseInt(endX / 60) * 60 的值来表示是否为第一次来到某一页 -->
